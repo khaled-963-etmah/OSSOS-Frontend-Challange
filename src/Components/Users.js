@@ -12,6 +12,7 @@ export default function Users() {
   //..................... usseEffect .............................
 
   useEffect(() => {
+    setLoading(true);
     // you can use one of them to load data
     // just uncomment what you want to use and comment other one
 
@@ -19,21 +20,21 @@ export default function Users() {
 
     // 1- this function load data using a read API call to some resource.
 
-    // getFilteredSuggestionsFromApi(searchTerm)
-    //   .then(setSuggestions)
-    //   .catch((error) => {
-    //     console.log(error);
-    //   });
+    getFilteredSuggestionsFromApi(searchTerm)
+      .then(setSuggestions)
+      .catch((error) => {
+        console.log(error);
+      });
 
     //...........................from JSON...........................
 
     // 2- this function load data using a read API call to mock JSON File.
 
-    getFilteredSuggestions(searchTerm)
-      .then(setSuggestions)
-      .catch((error) => {
-        console.log(error);
-      });
+    // getFilteredSuggestions(searchTerm)
+    //   .then(setSuggestions)
+    //   .catch((error) => {
+    //     console.log(error);
+    //   });
   }, [searchTerm]);
 
   //..................... handlers................................
