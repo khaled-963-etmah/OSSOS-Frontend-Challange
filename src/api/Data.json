@@ -1,0 +1,20 @@
+{
+    "suggestions": [
+        { "id": 1, "name": "khaled", "img": "./img/boy.webp" },
+        { "id": 2, "name": "khaled sawan", "img": "./img/girl2.webp" },
+        { "id": 3, "name": "radwan othman", "img": "./img/girl.jpeg" },
+        { "id": 4, "name": "mutaz alkattan", "img": "./img/boy.webp" },
+        { "id": 5, "name": "ossos", "img": "./img/boy.webp" },
+        { "id": 6, "name": "kosayi alkattan", "img": "./img/girl2.webp" },
+        { "id": 7, "name": "mohamad othman", "img": "./img/boy2.webp" },
+        { "id": 8, "name": "saif alkattan", "img": "./img/boy.webp" },
+        { "id": 9, "name": "khaled baroudi", "img": "./img/boy2.webp" },
+        { "id": 10, "name": "amir", "img": "./img/girl.jpeg" },
+        { "id": 11, "name": "sharokhan", "img": "./img/girl2.webp" },
+        { "id": 12, "name": "muhsin", "img": "./img/boy.webp" },
+        { "id": 13, "name": "mansoor", "img": "./img/boy.webp" },
+        { "id": 14, "name": "retta", "img": "./img/boy2.webp" },
+        { "id": 15, "name": "john", "img": "./img/person.webp" },
+        { "id": 16, "name": "john cena", "img": "./img/boy2.webp" }
+    ]
+}
